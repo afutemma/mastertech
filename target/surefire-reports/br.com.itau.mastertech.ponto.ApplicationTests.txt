@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: br.com.itau.mastertech.ponto.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.487 s <<< FAILURE! - in br.com.itau.mastertech.ponto.ApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clockRepository': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List br.com.itau.mastertech.ponto.repositories.ClockRepository.findByUserId(int) but parameter 'Optional[id]' not found in annotated query 'select p from Paper p where p.student.id = :student.id order by p.student.dateSubmitted'!
+Caused by: java.lang.IllegalStateException: Using named parameters for method public abstract java.util.List br.com.itau.mastertech.ponto.repositories.ClockRepository.findByUserId(int) but parameter 'Optional[id]' not found in annotated query 'select p from Paper p where p.student.id = :student.id order by p.student.dateSubmitted'!
+

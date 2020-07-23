@@ -1,0 +1,12 @@
+br\com\itau\mastertech\ponto\models\User$UserBuilder.class
+br\com\itau\mastertech\ponto\repositories\UserRepository.class
+br\com\itau\mastertech\ponto\controllers\UserController.class
+br\com\itau\mastertech\ponto\services\UserService.class
+br\com\itau\mastertech\ponto\repositories\ClockRepository.class
+br\com\itau\mastertech\ponto\models\TipoPonto.class
+br\com\itau\mastertech\ponto\services\ClockService.class
+br\com\itau\mastertech\ponto\Application.class
+br\com\itau\mastertech\ponto\models\Clock.class
+br\com\itau\mastertech\ponto\models\User.class
+br\com\itau\mastertech\ponto\models\Clock$ClockBuilder.class
+br\com\itau\mastertech\ponto\controllers\ClocksController.class
